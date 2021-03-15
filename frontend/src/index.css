@@ -1,0 +1,474 @@
+#root{
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-color: transparent;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7) 0%,
+      rgba(255, 255, 255, 0.7) 100%
+    ),
+    url("https://i.pinimg.com/originals/b0/28/a2/b028a2493053bcd5537605a92d15593e.jpg");
+  background-size: cover;
+  transform: perspective(1400px)
+    matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transform-style: preserve-3d;
+}
+.gwd-div-1gwd {
+  position: absolute;
+  min-height: 100%;
+  width: 100%;
+}
+.gwd-div-h7oc {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 52px;
+  background-image: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px,
+    rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+  background-color: rgb(199, 242, 225);
+  width: 100%;
+}
+.gwd-div-1dg7 {
+  position: absolute;
+  height: 44px;
+  width: 100%;
+  bottom: 0rem;
+  background-image: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px,
+    rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+  background-color: rgb(243, 175, 127);
+}
+.gwd-p-6bms {
+  position: absolute;
+  width: 100%;
+  user-select: none;
+  text-align: center;
+  color: rgb(253, 253, 253);
+  font-family: "Gloria Hallelujah";
+  transform-origin: 50% 50% 0px;
+  font-size: 25px;
+  height: 22px;
+  bottom: .1rem;
+}
+.gwd-p-1uij {
+  position: absolute;
+  height: 52px;
+  font-family: "Gloria Hallelujah";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 30px;
+  width: 306px;
+  transform-origin: 50% 50% 0px;
+  left: 25px;
+  z-index: 1;
+  bottom: -1.5rem;
+}
+.gwd-span-1fjr {
+  user-select: none;
+  transition: .05s;
+  color: rgb(45, 134, 100);
+}
+.gwd-span-1fjr:hover{
+  text-shadow: 0 0 3px rgb(0, 255, 21);
+}
+.gwd-button-1osf {
+  position: absolute;
+  transform-style: preserve-3d;
+  height: 34.0034px;
+  width: 139.996px;
+  border-radius: 2rem;
+  transform-origin: 69.9982px 17px 0px;
+  right: 1rem;
+  top: 18%;
+  font-family: "Gloria Hallelujah";
+  font-weight: bold;
+  font-size: 17px;
+  background-image: none;
+  background-color: rgb(163, 225, 200);
+  border-width: 0px;
+  outline: none;
+  transition: all 0.1s ease 0s;
+  z-index: 1;
+}
+.gwd-button-1osf:hover {
+  background-color: rgb(114, 199, 165);
+  color: white;
+}
+.gwd-div-8kp3 {
+  position: absolute;
+  background-image: none;
+  font-size: 4rem;
+  background-color: rgba(255, 255, 255, 0.82);
+  width: 58.72%;
+  height: 57.69%;
+  left: 20.67%;
+  top: 21.15%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px,
+    rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gwd-span-hpwn {
+  position: absolute;
+  user-select: none;
+  text-shadow: 2px 2px 4px #00000049;
+  font-family: "Gloria Hallelujah";
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: auto;
+  color: rgb(255, 225, 0);
+  width: 86.43%;
+  top: -1%;
+  height: 74.62%;
+}
+.gwd-div-xzgw {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.gwd-div-4xpz {
+  position: absolute;
+  width: 40.4%;
+  height: 55.83%;
+  left: 29.78%;
+  border-radius: .5rem;
+  background-image: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px,
+    rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+  background-color: rgba(227, 245, 248, 0.781);
+  top: 22.16%;
+}
+.gwd-span-vfvg {
+  position: absolute;
+  text-align: center;
+  font-size: 55px;
+  font-family: "Gloria Hallelujah";
+  text-shadow: 2px 2px 4px #0000003a;
+  left: 10.62%;
+  width: 78.76%;
+  height: 17.53%;
+  top: 4.9%;
+}
+.gwd-input-1gcf {
+  position: absolute;
+  border-radius: .5rem;
+  box-shadow: rgba(0, 0, 0, 0.096) 0px 4px 8px 0px,
+    rgba(0, 0, 0, 0.068) 0px 6px 20px 0px;
+  left: 66px;
+  width: 481px;
+  transform-origin: 50% 50% 0px;
+  border: 0;
+  top: 119px;
+  height: 26px;
+  outline: none;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.gwd-input-xf7b {
+  left: 10.62%;
+  top: 38%;
+  height: 23.45%;
+  width: 77.41%;
+  resize: none;
+}
+.gwd-input-xf7b::placeholder{
+  padding: 2.5rem;
+}
+.gwd-input-3s46 {
+  left: 10.62%;
+  top: 28%;
+  width: 77.41%;
+  height: 6.7%;
+}
+.gwd-select-ndvs {
+  position: absolute;
+  transform-origin: 50% 50% 0px;
+  left: 10.62%;
+  top: 78%;
+  height: 8.25%;
+  width: 26.23%;
+  outline: none;
+  border: none;
+  border-radius: .5rem;
+  font-size: 1rem;
+  font-family: "Gloria Hallelujah";
+  box-shadow: rgba(0, 0, 0, 0.096) 0px 4px 8px 0px,
+    rgba(0, 0, 0, 0.068) 0px 6px 20px 0px;
+}
+::placeholder{
+  text-align: center;
+  font-family: "Gloria Hallelujah";
+}
+.gwd-select-ndvs select{
+  text-align-last: center;
+}
+.gwd-button-15h2 {
+  position: absolute;
+  transform-origin: 50% 50% 0px;
+  border-radius: .5rem;
+  background-color: rgb(255, 155, 188);
+  top: 78%;
+  font-family: "Gloria Hallelujah";
+  font-weight: bold;
+  font-size: 1.5rem;
+  height: 8.25%;
+  left: 67.59%;
+  width: 21%;
+  border: none;
+  color: rgb(75, 75, 75);
+  box-shadow: rgba(0, 0, 0, 0.096) 0px 4px 8px 0px,
+    rgba(0, 0, 0, 0.068) 0px 6px 20px 0px;
+  transition: .1s;
+  outline: none;
+}
+.gwd-button-15h2:hover{
+  background-color: rgb(255, 0, 98);
+  color: white;
+}
+.gwd-select-uopq {
+  left: 39.11%;
+}
+.gwd-input-1md6 {
+  top: 65%;
+}
+.Screen {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.Container {
+  position: absolute;
+  width: 40.4%;
+  height: 55.83%;
+  left: 29.78%;
+  border-radius: 0.5rem;
+  background-image: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+  background-color: rgba(227, 245, 248, 0.78);
+  top: 22.16%;
+}
+.img-Success {
+  position: absolute;
+  height: 55.83%;
+  width: 41.47%;
+  left: 29.36%;
+  top: 18.57%;
+}
+.gwd-button-esfy {
+  position: absolute;
+  width: 100px;
+  height: 24px;
+  left: 35px;
+  top: 206px;
+  outline: none;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+  font-size: 1.7rem;
+  font-family: "Gloria Hallelujah";
+  border-radius: 0.3rem;
+  transition: .05s;
+  background-color: rgb(255, 249, 166);
+}
+.gwd-button-esfy:hover{
+  background-color: rgb(199, 194, 128);
+}
+.gwd-button-v9vg {
+  left: 60.03%;
+  top: 79.87%;
+  width: 21.75%;
+  height: 9.3%;
+}
+.gwd-button-ka0e5 {
+  left: 18.49%;
+  top: 79.87%;
+  width: 21.75%;
+  height: 9.3%;
+}
+.Title_Success{
+  position: absolute;
+  left: 28%;
+  font-size: 2rem;
+  font-family: "Gloria Hallelujah";
+}
+.gwd-p-1ghr {
+  position: absolute;
+  font-size: 2rem;
+  font-family: "Gloria Hallelujah";
+  font-weight: bold;
+  width: 81.44%;
+  top: -2%;
+  height: 9.3%;
+  text-align: center;
+  left: 9.35%;
+}
+.gwd-div-1bvd {
+  position: absolute;
+  background-color:white;
+  width: 81.35%;
+  transform-origin: 50% 50% 0px;
+  height: 43.81%;
+  left: 9.35%;
+  top: 18.61%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: "Consolas";
+  outline: none;
+  border: none;
+  resize: none;
+  box-shadow: rgba(0, 0, 0, 0.089) 0px 4px 8px 0px, rgba(0, 0, 0, 0.075) 0px 6px 20px 0px;
+  border-radius: 0.5rem;
+}
+.gwd-p-1j3u {
+  position: absolute;
+  left: 10.01%;
+  font-family: "Gloria Hallelujah";
+  border-radius: 0.5rem;
+  width: 28.93%;
+  top: 78%;
+  height: 9.3%;
+  text-align: center;
+  font-size: 1.5rem;
+  
+}
+.gwd-p-onkl {
+  left: 62.3%;
+}
+.gwd-p-qw42 {
+  left: 9.35%;
+}
+.gwd-button-ka0e {
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+  outline: none;
+  border: none;
+  font-family: "Gloria Hallelujah";
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  top: 82.87%;
+  width: 21.75%;
+  height: 9.3%;
+  left: 39.15%;
+  background-color: rgb(255, 209, 139);
+  transition: .05s;
+}
+.gwd-button-ka0e:hover{
+  background-color: rgb(187, 153, 101);
+  color: white;
+}
+.Link{
+  text-decoration: none;
+}
+.AnsInput {
+  background-color: rgba(255, 255, 255, 0.918);
+  top: 68%;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  width: 80.9%;
+  box-shadow: rgba(0, 0, 0, 0.089) 0px 4px 8px 0px, rgba(0, 0, 0, 0.075) 0px 6px 20px 0px;
+}
+
+.quizs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.quizs li {
+  text-align: center;
+  list-style-type: none;
+  flex: 0 1 25rem;
+  margin: 1rem;
+  height: 15rem;
+  background-color: rgba(255, 255, 255, 0.842);
+  transition: .2s;
+}
+.zoominquiz:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.quiz{
+  font-family: "Gloria Hallelujah";
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.quiz_⭐{
+  box-shadow: 0 4px 8px 0 rgba(79, 255, 63, 0.2), 0 6px 20px 0 rgb(111, 255, 106, 0.19);
+}
+.quiz_⭐⭐{
+  box-shadow: 0 4px 8px 0 rgba(204, 255, 63, 0.2), 0 6px 20px 0 rgba(240, 255, 106, 0.19);
+}
+.quiz_⭐⭐⭐{
+  box-shadow: 0 4px 8px 0 rgba(255, 156, 63, 0.2), 0 6px 20px 0 rgba(255, 190, 106, 0.19);
+}
+.quiz_⭐⭐⭐⭐{
+  box-shadow: 0 4px 8px 0 rgba(255, 63, 63, 0.2), 0 6px 20px 0 rgba(255, 106, 106, 0.19);
+}
+.quiz_⭐⭐⭐⭐⭐{
+  box-shadow: 0 4px 8px 0 rgba(185, 63, 255, 0.2), 0 6px 20px 0 rgba(213, 106, 255, 0.19);
+}
+.quiz-title{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.quiz-cats{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.quiz-level{
+  color: rgb(255, 255, 255);
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+a.Link{
+  color: black;
+}
+.IndexButton{
+  position: absolute;
+  bottom: 10%;
+  width: 22%;
+  height: 10%;
+  left: 38%;
+  outline: none;
+  border: none;
+  background-color: rgb(255, 249, 167);
+  font-size: 1.8rem;
+  font-family: "Gloria Hallelujah";
+  border-radius: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.075), 0 6px 20px 0 rgba(0, 0, 0, 0.075);
+  transition: .05s;
+}
+.IndexButton:hover{
+  background-color: rgb(255, 137, 40);
+  color: white;
+}
+.loadImg{
+  text-align: center;
+}
